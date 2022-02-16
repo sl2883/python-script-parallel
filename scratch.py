@@ -5,14 +5,14 @@ url = "https://us1.api.clevertap.com/1/upload"
 
 
 headers = {
-  'X-CleverTap-Account-Id': '464-49W-WR6Z',
-  'X-CleverTap-Passcode': 'AMA-AUE-YWUL',
+  'X-CleverTap-Account-Id': 'TEST-869-K69-446Z',
+  'X-CleverTap-Passcode': 'SMS-RIV-AAUL',
   'Content-Type': 'application/json'
 }
 
-for x in range(5):
+for x in range(50):
 
-  identity = "sl-py-2-" + str(x)
+  identity = "sl-py-1-" + str(x)
   email = identity + "@test.com"
 
   identityPayload = "{" \
