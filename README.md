@@ -1,1 +1,1 @@
-Running scratch.py lead to 2/5 identity errors
+Running scratch.py lead to 2/5 identity errors. Running 50 times lead to 8 identity errors.
